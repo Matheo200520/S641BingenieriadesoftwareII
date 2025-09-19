@@ -15,10 +15,11 @@ public class Reader {
             case "Paragraph":
                 converter.makeParagraph();;
                 break;  
-            case "Paragraph":
-                converter.makeParagraph();;
-                break;      
+            case "PDF":
+                converter.makeTable();
+                break;           
             default:
+                System.out.println("Opción no válida");
                 break;
         }
     }
