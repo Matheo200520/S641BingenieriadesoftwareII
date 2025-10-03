@@ -1,4 +1,4 @@
-public class PDFConverter extends  Converter{
+public class PDFConverterC extends  ConverterC{
      public void makeLine(){
        System.out.println("Línea con PDF");
    }

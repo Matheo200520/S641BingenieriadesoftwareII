@@ -7,15 +7,15 @@ public class Reader {
         this.converter=converter;
     }
 
-    public void parseint(){
+    public void parseInput(){
         switch (element) {
-            case "Line":
+            case "LINE":
                 converter.makeLine();
                 break;
-            case "Paragraph":
+            case "PARAGRAPH":
                 converter.makeParagraph();;
                 break;  
-            case "PDF":
+            case "TABLE":
                 converter.makeTable();
                 break;           
             default:

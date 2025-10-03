@@ -1,4 +1,4 @@
-public class PostScriptConverter extends Converter {
+public class PostScriptConverterC extends ConverterC {
      public void makeLine(){
        System.out.println("Línea con PostScript");
    }
